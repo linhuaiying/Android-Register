@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_news"
+        android:icon="@drawable/main_course_icon"
+        android:title="课程" />
+    <item
+        android:id="@+id/item_finding"
+        android:icon="@drawable/main_exercises_icon"
+        android:title="习题" />
+    <item
+        android:id="@+id/item_plus"
+        android:icon="@drawable/main_my_icon"
+        android:title="我"
+        />
+
+</menu>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/register_bg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/register_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/iv_back_selected"
+            android:onClick="onBackClick"/>
+        <TextView
+            android:id="@+id/register_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:textSize="25dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="0dp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/register_symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/default_icon"  />
+    <EditText
+        android:id="@+id/register_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/login_user_name_bg"
+        android:hint="请输入账号"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/user_name_icon" />
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/login_psw_bg"
+        android:password="true"
+        android:hint="请输入密码"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/psw_icon" />
+    <EditText
+        android:id="@+id/register_password2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/login_psw_bg"
+        android:password="true"
+        android:hint="请再次输入密码"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/psw_icon" />
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/register_icon_normal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="onRegisterClick"/>
+</LinearLayout>
